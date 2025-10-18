@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Música Transcendente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="tema-dark">
+    <div class="player-musica">
+        <div class="particulas" id="particulas"></div>
+        
+        <div class="cabecalho-player">
+            <h1 class="titulo-player">BlackNote</h1>
+            <div class="acoes-player">
+                <button id="botaoTema" class="botao-tema"><i class="fas fa-palette"></i></button>
+            </div>
+        </div>
+        
+        <div class="container-capa-album" id="containerAlbum">
+            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Capa do Álbum" class="capa-album" id="capaAlbum">
+            <div class="sobreposicao-vinil"></div>
+            <div class="visualizador" id="visualizador">
+                <!-- Barras geradas via JavaScript -->
+            </div>
+        </div>
+        
+        <div class="info-musica">
+            <h2 class="titulo-musica" id="tituloMusica">Música Relaxante</h2>
+            <p class="artista" id="artistaNome">Artista Calmo</p>
+        </div>
+        
+        <div class="area-progresso">
+            <div class="barra-progresso" id="barraProgresso">
+                <div class="progresso" id="progresso"></div>
+            </div>
+            <div class="tempo">
+                <span class="atual" id="tempoAtual">0:00</span>
+                <span class="duracao" id="duracao">0:00</span>
+            </div>
+        </div>
+        
+        <div class="controles">
+            <button id="botaoEmbaralhar" class="botao" title="Embaralhar">
+                <i class="fas fa-random"></i>
+            </button>
+            <button id="botaoAnterior" class="botao" title="Anterior">
+                <i class="fas fa-step-backward"></i>
+            </button>
+            <button id="botaoPlayPause" class="botao play-pause" title="Play">
+                <i class="fas fa-play" id="iconePlay"></i>
+            </button>
+            <button id="botaoProximo" class="botao" title="Próximo">
+                <i class="fas fa-step-forward"></i>
+            </button>
+            <button id="botaoRepetir" class="botao" title="Repetir">
+                <i class="fas fa-redo"></i>
+            </button>
+        </div>
+        
+        <div class="controles-adicionais">
+            <div class="controle-volume">
+                <i class="fas fa-volume-up" id="iconeVolume"></i>
+                <input type="range" class="deslizante-volume" id="deslizanteVolume" min="0" max="100" value="70" title="Volume">
+            </div>
+            
+            <button class="botao-playlist" id="botaoLista">
+                <i class="fas fa-list"></i> Lista de Músicas
+                <span class="pulsar"></span>
+            </button>
+        </div>
+        
+        <div class="tocando-agora">
+            <i class="fas fa-music"></i> Tocando agora
+        </div>
+        
+        <!-- Elemento de áudio oculto -->
+        <audio id="playerAudio"></audio>
+        
+        <!-- Lista de músicas (inicialmente oculta) -->
+        <div class="lista-musicas" id="listaMusicas">
+            <div class="cabecalho-lista">
+                <h3>Lista de Reprodução</h3>
+                <button id="fecharLista" class="botao-fechar">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <ul id="itensLista">
+                <!-- Itens gerados via JavaScript -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

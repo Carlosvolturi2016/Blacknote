@@ -475,6 +475,124 @@ const musicasData = [
     
     },
 
+    // terceira parte
+
+     { 
+        titulo: "Human", 
+        artista: "RagnBone", 
+        capa: 'capa/rag.webp',
+        audio: 'musica/Human - Rag n Bone Man (Lyrics).mp3'
+    
+    },
+     { 
+        titulo: " Who Is It", 
+        artista: "Michael Jackson", 
+        capa: 'capa/mj.webp',
+        audio: 'musica/Michael Jackson - Who Is It (Official Video).mp3'
+    
+    },
+     { 
+        titulo: " Impossible ", 
+        artista: "James Arthur", 
+        capa: 'capa/james_arthur.webp',
+        audio: 'musica/James Arthur - Impossible (Official Video).mp3'
+    
+    },
+     { 
+        titulo: " How Do I Breathe ", 
+        artista: "Mario", 
+        capa: 'capa/mario.webp',
+        audio: 'musica/Mario - How Do I Breathe (Official Video).mp3'
+    
+    },
+   
+    {
+        titulo: "Call My Name",
+        artista: "Prince", 
+        capa: "capas/Prince1.webp",
+        audio: "song/05  Call My Name.mp3"
+    },
+    {
+        titulo: "The Question",
+        artista: "Prince",
+        capa: "capas/prince3.jpg",
+        audio: "song/14  The One - The Question Of U - Fallin'.mp3"
+    },
+    {
+        titulo: "All the Critics",
+        artista: "Prince",
+        capa: "capas/29961031[1].jpg",
+        audio: "song/15  All The Critics Love U In London.mp3"
+    },
+    {
+        titulo: "Illusion, Coma, Pimp & Circumstance",
+        artista: "Prince",
+        capa: "capas/2.jpg",
+        audio: "song/02  Illusion, Coma, Pimp.mp3"
+    },
+ {
+        titulo: "Cinnamon Girl",
+        artista: "Prince",
+        capa: "capas/5.avif",
+        audio: "song/06  Cinnamon Girl.mp3"
+    },
+    {
+        titulo: "Avalanche",
+        artista: "Prince",
+        capa: "capas/3.jpg",
+        audio: "song/07  Avalanche.mp3"
+    },
+     {
+        titulo: "On The Couch",
+        artista: "Prince",
+        capa: "capas/6.jpg",
+        audio: "song/10  On The Couch.mp3"
+    },
+     {
+        titulo: "Dear Mr. Man",
+        artista: "Prince",
+        capa: "capas/8.jpg",
+        audio: "song/11  Dear Mr. Man.mp3"
+    },
+    
+
+ {
+        titulo: "Starboy (Feat. Daft Punk)",
+        artista: "The Weeknd",
+        capa: "capa/star.jpg",
+        audio: "song/01.- Starboy (Feat. Daft Punk).flac"
+    },
+     {
+        titulo: "Party Monster",
+        artista: "The Weeknd",
+        capa: "capa/monster.jpg",
+        audio: "song/02.- Party Monster.flac"
+    },
+     {
+        titulo: "Rockin",
+        artista: "The Weeknd",
+        capa: "capa/rock.jpg",
+        audio: "song/05.- Rockin'.flac"
+    },
+      {
+        titulo: "Bleeding Love",
+        artista: "Leona Lewis",
+        capa: "capa/leona.jpg",
+        audio: "musica/Leona Lewis - Bleeding Love (US Version - Official Video).mp3"
+    },
+       {
+        titulo: "Bust Your Windows",
+        artista: "Jazmine Sullivan",
+        capa: "capa/jaz.jpg",
+        audio: "musica/Jazmine Sullivan - Bust Your Windows.mp3"
+    },
+      {
+        titulo: "No Sleeep",
+        artista: "Janet Jackson",
+        capa: "capa/janet.gif",
+        audio: "musica/Janet Jackson -  No Sleeep  Feat. J. Cole (Music Video).mp3"
+    },
+
 
 
 
